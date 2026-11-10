@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Vavuniya\\SEMESTER III\\Visual\\StockSpace\\StockSpace\\",
+  "WorkspaceRootPath": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vavuniya\\semester iii\\visual\\stockspace\\stockspace\\stockspace\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\dashboardp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\dashboardp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\Vavuniya\\SEMESTER III\\Visual\\StockSpace\\StockSpace\\StockSpace\\Form1.cs",
-              "RelativeDocumentMoniker": "StockSpace\\Form1.cs",
-              "ToolTip": "E:\\Vavuniya\\SEMESTER III\\Visual\\StockSpace\\StockSpace\\StockSpace\\Form1.cs [Design]",
-              "RelativeToolTip": "StockSpace\\Form1.cs [Design]",
+              "Title": "Dashboardp.cs [Design]",
+              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs",
+              "RelativeDocumentMoniker": "StockSpace\\Dashboardp.cs",
+              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs [Design]*",
+              "RelativeToolTip": "StockSpace\\Dashboardp.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T11:09:54.636Z",
+              "WhenOpened": "2026-11-09T20:21:20.192Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboardp.Designer.cs",
+              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.Designer.cs",
+              "RelativeDocumentMoniker": "StockSpace\\Dashboardp.Designer.cs",
+              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.Designer.cs*",
+              "RelativeToolTip": "StockSpace\\Dashboardp.Designer.cs*",
+              "ViewState": "AgIAANcAAAAAAAAAAAAgwNwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T20:21:12.676Z",
+              "EditorCaption": ""
             }
           ]
         }
