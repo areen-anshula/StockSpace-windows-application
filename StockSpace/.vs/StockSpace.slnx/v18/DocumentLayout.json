@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\dashboardp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\dashboardp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Dashboardp.Designer.cs",
-              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.Designer.cs",
-              "RelativeDocumentMoniker": "StockSpace\\Dashboardp.Designer.cs",
-              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.Designer.cs",
-              "RelativeToolTip": "StockSpace\\Dashboardp.Designer.cs",
-              "ViewState": "AgIAANcAAAAAAAAAAAAgwNwAAAA1AAAAAAAAAA==",
+              "Title": "Dashboardp.cs",
+              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs",
+              "RelativeDocumentMoniker": "StockSpace\\Dashboardp.cs",
+              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs",
+              "RelativeToolTip": "StockSpace\\Dashboardp.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAnwL0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T20:21:12.676Z",
+              "WhenOpened": "2026-11-14T11:34:48.698Z",
               "EditorCaption": ""
             }
           ]
