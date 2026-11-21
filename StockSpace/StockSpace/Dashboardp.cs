@@ -189,5 +189,38 @@ namespace StockSpace
         {
 
         }
+
+        private void resivegood_Click(object sender, EventArgs e)
+        {
+            receivegood f2 = new receivegood();
+            f2.Show();
+            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+            this.Hide();
+        }
+
+        private void label16_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Separator1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label36_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
