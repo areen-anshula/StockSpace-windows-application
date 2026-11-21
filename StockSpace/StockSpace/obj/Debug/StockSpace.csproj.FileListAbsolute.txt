@@ -64,3 +64,4 @@ E:\VS project\StockSpace-windows-application\StockSpace\StockSpace\bin\Debug\Sys
 E:\VS project\StockSpace-windows-application\StockSpace\StockSpace\bin\Debug\System.Threading.Tasks.Extensions.xml
 E:\VS project\StockSpace-windows-application\StockSpace\StockSpace\bin\Debug\System.ValueTuple.xml
 E:\VS project\StockSpace-windows-application\StockSpace\StockSpace\obj\Debug\StockSpace.receivegood.resources
+E:\VS project\StockSpace-windows-application\StockSpace\StockSpace\obj\Debug\StockSpace.storages.resources

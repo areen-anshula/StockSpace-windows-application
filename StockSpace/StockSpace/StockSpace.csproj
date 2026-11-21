@@ -183,6 +183,12 @@
     <Compile Include="receivegood.Designer.cs">
       <DependentUpon>receivegood.cs</DependentUpon>
     </Compile>
+    <Compile Include="storages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storages.Designer.cs">
+      <DependentUpon>storages.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboardp.resx">
       <DependentUpon>Dashboardp.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +204,9 @@
     </Compile>
     <EmbeddedResource Include="receivegood.resx">
       <DependentUpon>receivegood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storages.resx">
+      <DependentUpon>storages.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="OpenTK.dll.config" />
     <None Include="packages.config" />
@@ -300,6 +309,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\yellow line copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.3.119.0\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.3.119.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />

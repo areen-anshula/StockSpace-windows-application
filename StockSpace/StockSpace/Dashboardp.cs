@@ -222,5 +222,49 @@ namespace StockSpace
         {
 
         }
+
+        private void guna2Panel16_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel17_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Dashboard_Click(object sender, EventArgs e)
+        {
+            Dashboardp d1 = new Dashboardp();
+            d1.Show();
+            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+            this.Hide();
+        }
+
+        private void Storages_Click(object sender, EventArgs e)
+        {
+            storages s1 = new storages ();
+            s1.Show();
+            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+            this.Hide();
+        }
+
+        private void Receive_Goods_Click(object sender, EventArgs e)
+        {
+            receivegood r1 = new receivegood();
+            r1.Show();
+            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+            this.Hide();
+        }
     }
 }

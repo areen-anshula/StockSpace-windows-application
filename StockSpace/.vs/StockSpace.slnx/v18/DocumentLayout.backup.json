@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\storages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\storages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|E:\\VS project\\StockSpace-windows-application\\StockSpace\\stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\storages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\storages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\receivegood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\receivegood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\dashboardp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|e:\\vs project\\stockspace-windows-application\\stockspace\\stockspace\\receivegood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|E:\\VS project\\StockSpace-windows-application\\StockSpace\\stockspace\\receivegood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{778C1916-D083-4D9E-BC0C-138FDEBD1A1B}|StockSpace\\StockSpace.csproj|solutionrelative:stockspace\\receivegood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,36 +34,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dashboardp.cs [Design]",
-              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs",
-              "RelativeDocumentMoniker": "StockSpace\\Dashboardp.cs",
-              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs [Design]",
-              "RelativeToolTip": "StockSpace\\Dashboardp.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "storages.cs",
+              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\storages.cs",
+              "RelativeDocumentMoniker": "StockSpace\\storages.cs",
+              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\storages.cs",
+              "RelativeToolTip": "StockSpace\\storages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T20:21:20.192Z",
+              "WhenOpened": "2026-11-21T11:58:08.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "storages.cs [Design]",
+              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\storages.cs",
+              "RelativeDocumentMoniker": "StockSpace\\storages.cs",
+              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\storages.cs [Design]",
+              "RelativeToolTip": "StockSpace\\storages.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T10:16:58.603Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "receivegood.cs",
+              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\receivegood.cs",
+              "RelativeDocumentMoniker": "StockSpace\\receivegood.cs",
+              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\receivegood.cs",
+              "RelativeToolTip": "StockSpace\\receivegood.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvxgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T10:50:44.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dashboardp.cs",
               "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs",
               "RelativeDocumentMoniker": "StockSpace\\Dashboardp.cs",
               "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs",
               "RelativeToolTip": "StockSpace\\Dashboardp.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAnwN4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAvwP8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T11:34:48.698Z",
+              "WhenOpened": "2026-11-21T10:47:25.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "receivegood.cs [Design]",
               "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\receivegood.cs",
               "RelativeDocumentMoniker": "StockSpace\\receivegood.cs",
@@ -59,6 +97,18 @@
               "RelativeToolTip": "StockSpace\\receivegood.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-21T07:34:48.747Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboardp.cs [Design]",
+              "DocumentMoniker": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs",
+              "RelativeDocumentMoniker": "StockSpace\\Dashboardp.cs",
+              "ToolTip": "E:\\VS project\\StockSpace-windows-application\\StockSpace\\StockSpace\\Dashboardp.cs [Design]",
+              "RelativeToolTip": "StockSpace\\Dashboardp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T20:21:20.192Z",
               "EditorCaption": " [Design]"
             }
           ]

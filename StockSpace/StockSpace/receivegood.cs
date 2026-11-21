@@ -16,5 +16,13 @@ namespace StockSpace
         {
             InitializeComponent();
         }
+
+        private void Dashboard_Click(object sender, EventArgs e)
+        {
+            Dashboardp d1 = new Dashboardp();
+            d1.Show();
+            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+            this.Hide();
+        }
     }
 }
