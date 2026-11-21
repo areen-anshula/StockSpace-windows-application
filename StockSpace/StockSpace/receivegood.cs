@@ -24,5 +24,20 @@ namespace StockSpace
             // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Total_Storages_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

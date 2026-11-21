@@ -28,18 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboardp));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboardp));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.Settings = new System.Windows.Forms.Button();
+            this.Reports = new System.Windows.Forms.Button();
+            this.History = new System.Windows.Forms.Button();
+            this.Release_Goods = new System.Windows.Forms.Button();
+            this.Transfer_Goods = new System.Windows.Forms.Button();
+            this.Stored_Goods = new System.Windows.Forms.Button();
+            this.Storages = new System.Windows.Forms.Button();
+            this.Receive_Goods = new System.Windows.Forms.Button();
+            this.Dashboard = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.label21 = new System.Windows.Forms.Label();
             this.plable = new System.Windows.Forms.Label();
@@ -51,13 +61,14 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.resivegood = new System.Windows.Forms.Button();
             this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -69,9 +80,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -98,53 +113,38 @@
             this.label29 = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
+            this.dashboard_dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label36 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.Settings = new System.Windows.Forms.Button();
-            this.Reports = new System.Windows.Forms.Button();
-            this.History = new System.Windows.Forms.Button();
-            this.Release_Goods = new System.Windows.Forms.Button();
-            this.Transfer_Goods = new System.Windows.Forms.Button();
-            this.Stored_Goods = new System.Windows.Forms.Button();
-            this.Storages = new System.Windows.Forms.Button();
-            this.Receive_Goods = new System.Windows.Forms.Button();
-            this.Dashboard = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dashboard_dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2CircleProgressBar1.SuspendLayout();
             this.guna2Panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.guna2Panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.guna2Panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.guna2Panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.guna2Panel9.SuspendLayout();
             this.guna2Panel11.SuspendLayout();
             this.guna2Panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dashboard_dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -167,6 +167,173 @@
             this.panel1.Size = new System.Drawing.Size(207, 1055);
             this.panel1.TabIndex = 0;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::StockSpace.Properties.Resources.yellow_line_copy;
+            this.pictureBox9.Location = new System.Drawing.Point(-61, 788);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(341, 311);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 8;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            // 
+            // Settings
+            // 
+            this.Settings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Settings.FlatAppearance.BorderSize = 0;
+            this.Settings.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Settings.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Settings.ForeColor = System.Drawing.Color.White;
+            this.Settings.Image = ((System.Drawing.Image)(resources.GetObject("Settings.Image")));
+            this.Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Settings.Location = new System.Drawing.Point(3, 494);
+            this.Settings.Name = "Settings";
+            this.Settings.Size = new System.Drawing.Size(207, 49);
+            this.Settings.TabIndex = 2;
+            this.Settings.Text = "       Settings";
+            this.Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Settings.UseVisualStyleBackColor = true;
+            // 
+            // Reports
+            // 
+            this.Reports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Reports.FlatAppearance.BorderSize = 0;
+            this.Reports.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Reports.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reports.ForeColor = System.Drawing.Color.White;
+            this.Reports.Image = ((System.Drawing.Image)(resources.GetObject("Reports.Image")));
+            this.Reports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Reports.Location = new System.Drawing.Point(3, 439);
+            this.Reports.Name = "Reports";
+            this.Reports.Size = new System.Drawing.Size(207, 49);
+            this.Reports.TabIndex = 2;
+            this.Reports.Text = "       Reports";
+            this.Reports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Reports.UseVisualStyleBackColor = true;
+            // 
+            // History
+            // 
+            this.History.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.History.FlatAppearance.BorderSize = 0;
+            this.History.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.History.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.History.ForeColor = System.Drawing.Color.White;
+            this.History.Image = ((System.Drawing.Image)(resources.GetObject("History.Image")));
+            this.History.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.History.Location = new System.Drawing.Point(2, 384);
+            this.History.Name = "History";
+            this.History.Size = new System.Drawing.Size(207, 49);
+            this.History.TabIndex = 2;
+            this.History.Text = "       History";
+            this.History.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.History.UseVisualStyleBackColor = true;
+            // 
+            // Release_Goods
+            // 
+            this.Release_Goods.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Release_Goods.FlatAppearance.BorderSize = 0;
+            this.Release_Goods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Release_Goods.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Release_Goods.ForeColor = System.Drawing.Color.White;
+            this.Release_Goods.Image = ((System.Drawing.Image)(resources.GetObject("Release_Goods.Image")));
+            this.Release_Goods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Release_Goods.Location = new System.Drawing.Point(2, 329);
+            this.Release_Goods.Name = "Release_Goods";
+            this.Release_Goods.Size = new System.Drawing.Size(207, 49);
+            this.Release_Goods.TabIndex = 2;
+            this.Release_Goods.Text = "       Release Goods";
+            this.Release_Goods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Release_Goods.UseVisualStyleBackColor = true;
+            // 
+            // Transfer_Goods
+            // 
+            this.Transfer_Goods.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Transfer_Goods.FlatAppearance.BorderSize = 0;
+            this.Transfer_Goods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Transfer_Goods.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Transfer_Goods.ForeColor = System.Drawing.Color.White;
+            this.Transfer_Goods.Image = ((System.Drawing.Image)(resources.GetObject("Transfer_Goods.Image")));
+            this.Transfer_Goods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Transfer_Goods.Location = new System.Drawing.Point(3, 274);
+            this.Transfer_Goods.Name = "Transfer_Goods";
+            this.Transfer_Goods.Size = new System.Drawing.Size(207, 49);
+            this.Transfer_Goods.TabIndex = 2;
+            this.Transfer_Goods.Text = "       Transfer Goods";
+            this.Transfer_Goods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Transfer_Goods.UseVisualStyleBackColor = true;
+            // 
+            // Stored_Goods
+            // 
+            this.Stored_Goods.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Stored_Goods.FlatAppearance.BorderSize = 0;
+            this.Stored_Goods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Stored_Goods.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Stored_Goods.ForeColor = System.Drawing.Color.White;
+            this.Stored_Goods.Image = ((System.Drawing.Image)(resources.GetObject("Stored_Goods.Image")));
+            this.Stored_Goods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Stored_Goods.Location = new System.Drawing.Point(2, 219);
+            this.Stored_Goods.Name = "Stored_Goods";
+            this.Stored_Goods.Size = new System.Drawing.Size(207, 49);
+            this.Stored_Goods.TabIndex = 2;
+            this.Stored_Goods.Text = "       Stored Goods";
+            this.Stored_Goods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Stored_Goods.UseVisualStyleBackColor = true;
+            // 
+            // Storages
+            // 
+            this.Storages.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Storages.FlatAppearance.BorderSize = 0;
+            this.Storages.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Storages.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Storages.ForeColor = System.Drawing.Color.White;
+            this.Storages.Image = ((System.Drawing.Image)(resources.GetObject("Storages.Image")));
+            this.Storages.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Storages.Location = new System.Drawing.Point(2, 109);
+            this.Storages.Name = "Storages";
+            this.Storages.Size = new System.Drawing.Size(207, 49);
+            this.Storages.TabIndex = 2;
+            this.Storages.Text = "       Storages";
+            this.Storages.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Storages.UseVisualStyleBackColor = true;
+            this.Storages.Click += new System.EventHandler(this.Storages_Click);
+            // 
+            // Receive_Goods
+            // 
+            this.Receive_Goods.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Receive_Goods.FlatAppearance.BorderSize = 0;
+            this.Receive_Goods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Receive_Goods.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Receive_Goods.ForeColor = System.Drawing.Color.White;
+            this.Receive_Goods.Image = ((System.Drawing.Image)(resources.GetObject("Receive_Goods.Image")));
+            this.Receive_Goods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Receive_Goods.Location = new System.Drawing.Point(2, 164);
+            this.Receive_Goods.Name = "Receive_Goods";
+            this.Receive_Goods.Size = new System.Drawing.Size(207, 49);
+            this.Receive_Goods.TabIndex = 2;
+            this.Receive_Goods.Text = "       Receive Goods";
+            this.Receive_Goods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Receive_Goods.UseVisualStyleBackColor = true;
+            this.Receive_Goods.Click += new System.EventHandler(this.Receive_Goods_Click);
+            // 
+            // Dashboard
+            // 
+            this.Dashboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Dashboard.FlatAppearance.BorderSize = 0;
+            this.Dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Dashboard.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dashboard.ForeColor = System.Drawing.Color.White;
+            this.Dashboard.Image = ((System.Drawing.Image)(resources.GetObject("Dashboard.Image")));
+            this.Dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Dashboard.Location = new System.Drawing.Point(2, 54);
+            this.Dashboard.Name = "Dashboard";
+            this.Dashboard.Size = new System.Drawing.Size(207, 49);
+            this.Dashboard.TabIndex = 2;
+            this.Dashboard.Text = "       Dashboard";
+            this.Dashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Dashboard.UseVisualStyleBackColor = true;
+            this.Dashboard.Click += new System.EventHandler(this.Dashboard_Click);
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.pictureBox1);
@@ -174,6 +341,16 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 48);
             this.panel3.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-3, -3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(207, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -236,13 +413,6 @@
             this.label14.Size = new System.Drawing.Size(444, 16);
             this.label14.TabIndex = 4;
             this.label14.Text = "Welcome back, Operational Manager.Here is your warehouse at a glance";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(1051, 66);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(188, 22);
-            this.dateTimePicker1.TabIndex = 5;
             // 
             // guna2CircleProgressBar1
             // 
@@ -388,19 +558,6 @@
             this.label20.TabIndex = 9;
             this.label20.Text = "Storage A";
             // 
-            // resivegood
-            // 
-            this.resivegood.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.resivegood.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.resivegood.ForeColor = System.Drawing.Color.White;
-            this.resivegood.Location = new System.Drawing.Point(1245, 57);
-            this.resivegood.Name = "resivegood";
-            this.resivegood.Size = new System.Drawing.Size(140, 43);
-            this.resivegood.TabIndex = 7;
-            this.resivegood.Text = "+ Receive Good";
-            this.resivegood.UseVisualStyleBackColor = false;
-            this.resivegood.Click += new System.EventHandler(this.resivegood_Click);
-            // 
             // guna2Panel14
             // 
             this.guna2Panel14.BackColor = System.Drawing.Color.Transparent;
@@ -440,6 +597,17 @@
             this.label31.TabIndex = 9;
             this.label31.Text = "Storage B is nearing its limit";
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(31, 6);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(30, 34);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 8;
+            this.pictureBox8.TabStop = false;
+            // 
             // guna2Panel13
             // 
             this.guna2Panel13.BackColor = System.Drawing.Color.Transparent;
@@ -478,6 +646,17 @@
             this.label26.Size = new System.Drawing.Size(183, 18);
             this.label26.TabIndex = 9;
             this.label26.Text = "Storage A is almost full";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(31, 8);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(30, 34);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 8;
+            this.pictureBox7.TabStop = false;
             // 
             // label4
             // 
@@ -610,6 +789,17 @@
             this.guna2Panel16.TabIndex = 8;
             this.guna2Panel16.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel16_Paint);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(26, 16);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
             // guna2Panel1
             // 
             this.guna2Panel1.BorderRadius = 15;
@@ -625,6 +815,17 @@
             this.guna2Panel1.Size = new System.Drawing.Size(257, 89);
             this.guna2Panel1.TabIndex = 8;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(25, 19);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
             // 
             // guna2Panel2
             // 
@@ -642,6 +843,17 @@
             this.guna2Panel2.TabIndex = 8;
             this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(30, 18);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 6;
+            this.pictureBox5.TabStop = false;
+            // 
             // guna2Panel17
             // 
             this.guna2Panel17.BorderRadius = 15;
@@ -657,6 +869,17 @@
             this.guna2Panel17.Size = new System.Drawing.Size(257, 89);
             this.guna2Panel17.TabIndex = 8;
             this.guna2Panel17.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel17_Paint);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(22, 18);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 6;
+            this.pictureBox6.TabStop = false;
             // 
             // guna2Panel3
             // 
@@ -954,9 +1177,9 @@
             // 
             this.guna2Panel11.BorderRadius = 15;
             this.guna2Panel11.BorderThickness = 5;
+            this.guna2Panel11.Controls.Add(this.guna2Button2);
             this.guna2Panel11.Controls.Add(this.label28);
             this.guna2Panel11.Controls.Add(this.label29);
-            this.guna2Panel11.Controls.Add(this.button1);
             this.guna2Panel11.Controls.Add(this.guna2Panel13);
             this.guna2Panel11.Controls.Add(this.guna2Panel14);
             this.guna2Panel11.CustomBorderThickness = new System.Windows.Forms.Padding(50);
@@ -982,6 +1205,17 @@
             this.guna2Panel12.TabIndex = 8;
             this.guna2Panel12.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel11_Paint);
             // 
+            // dashboard_dataGridView1
+            // 
+            this.dashboard_dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dashboard_dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dashboard_dataGridView1.Location = new System.Drawing.Point(25, 53);
+            this.dashboard_dataGridView1.Name = "dashboard_dataGridView1";
+            this.dashboard_dataGridView1.RowHeadersWidth = 51;
+            this.dashboard_dataGridView1.RowTemplate.Height = 24;
+            this.dashboard_dataGridView1.Size = new System.Drawing.Size(1112, 150);
+            this.dashboard_dataGridView1.TabIndex = 15;
+            // 
             // label36
             // 
             this.label36.AutoSize = true;
@@ -1006,85 +1240,6 @@
             this.label30.TabIndex = 8;
             this.label30.Text = "Recent Activity";
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(22, 18);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(48, 47);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(30, 18);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(48, 47);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(25, 19);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(48, 47);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Font = new System.Drawing.Font("Noto Sans JP", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(201, 172);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 35);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Transfer Goods";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(31, 8);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(30, 34);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(31, 6);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(30, 34);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 8;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(26, 16);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(48, 47);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -1095,193 +1250,59 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox9
+            // guna2Button1
             // 
-            this.pictureBox9.Image = global::StockSpace.Properties.Resources.yellow_line_copy;
-            this.pictureBox9.Location = new System.Drawing.Point(-61, 788);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(341, 311);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.AutoRoundedCorners = true;
+            this.guna2Button1.BorderRadius = 20;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.DarkOrange;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(1245, 58);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 43);
+            this.guna2Button1.TabIndex = 9;
+            this.guna2Button1.Text = "+ Receive Good";
             // 
-            // Settings
+            // guna2DateTimePicker1
             // 
-            this.Settings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Settings.FlatAppearance.BorderSize = 0;
-            this.Settings.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Settings.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Settings.ForeColor = System.Drawing.Color.White;
-            this.Settings.Image = ((System.Drawing.Image)(resources.GetObject("Settings.Image")));
-            this.Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Settings.Location = new System.Drawing.Point(3, 494);
-            this.Settings.Name = "Settings";
-            this.Settings.Size = new System.Drawing.Size(207, 49);
-            this.Settings.TabIndex = 2;
-            this.Settings.Text = "       Settings";
-            this.Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Settings.UseVisualStyleBackColor = true;
+            this.guna2DateTimePicker1.Animated = true;
+            this.guna2DateTimePicker1.AutoRoundedCorners = true;
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(1039, 60);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(200, 36);
+            this.guna2DateTimePicker1.TabIndex = 10;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2026, 11, 21, 18, 40, 19, 948);
             // 
-            // Reports
+            // guna2Button2
             // 
-            this.Reports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Reports.FlatAppearance.BorderSize = 0;
-            this.Reports.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Reports.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reports.ForeColor = System.Drawing.Color.White;
-            this.Reports.Image = ((System.Drawing.Image)(resources.GetObject("Reports.Image")));
-            this.Reports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Reports.Location = new System.Drawing.Point(3, 439);
-            this.Reports.Name = "Reports";
-            this.Reports.Size = new System.Drawing.Size(207, 49);
-            this.Reports.TabIndex = 2;
-            this.Reports.Text = "       Reports";
-            this.Reports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Reports.UseVisualStyleBackColor = true;
-            // 
-            // History
-            // 
-            this.History.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.History.FlatAppearance.BorderSize = 0;
-            this.History.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.History.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.History.ForeColor = System.Drawing.Color.White;
-            this.History.Image = ((System.Drawing.Image)(resources.GetObject("History.Image")));
-            this.History.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.History.Location = new System.Drawing.Point(2, 384);
-            this.History.Name = "History";
-            this.History.Size = new System.Drawing.Size(207, 49);
-            this.History.TabIndex = 2;
-            this.History.Text = "       History";
-            this.History.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.History.UseVisualStyleBackColor = true;
-            // 
-            // Release_Goods
-            // 
-            this.Release_Goods.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Release_Goods.FlatAppearance.BorderSize = 0;
-            this.Release_Goods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Release_Goods.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Release_Goods.ForeColor = System.Drawing.Color.White;
-            this.Release_Goods.Image = ((System.Drawing.Image)(resources.GetObject("Release_Goods.Image")));
-            this.Release_Goods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Release_Goods.Location = new System.Drawing.Point(2, 329);
-            this.Release_Goods.Name = "Release_Goods";
-            this.Release_Goods.Size = new System.Drawing.Size(207, 49);
-            this.Release_Goods.TabIndex = 2;
-            this.Release_Goods.Text = "       Release Goods";
-            this.Release_Goods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Release_Goods.UseVisualStyleBackColor = true;
-            // 
-            // Transfer_Goods
-            // 
-            this.Transfer_Goods.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Transfer_Goods.FlatAppearance.BorderSize = 0;
-            this.Transfer_Goods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Transfer_Goods.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Transfer_Goods.ForeColor = System.Drawing.Color.White;
-            this.Transfer_Goods.Image = ((System.Drawing.Image)(resources.GetObject("Transfer_Goods.Image")));
-            this.Transfer_Goods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Transfer_Goods.Location = new System.Drawing.Point(3, 274);
-            this.Transfer_Goods.Name = "Transfer_Goods";
-            this.Transfer_Goods.Size = new System.Drawing.Size(207, 49);
-            this.Transfer_Goods.TabIndex = 2;
-            this.Transfer_Goods.Text = "       Transfer Goods";
-            this.Transfer_Goods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Transfer_Goods.UseVisualStyleBackColor = true;
-            // 
-            // Stored_Goods
-            // 
-            this.Stored_Goods.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Stored_Goods.FlatAppearance.BorderSize = 0;
-            this.Stored_Goods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Stored_Goods.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Stored_Goods.ForeColor = System.Drawing.Color.White;
-            this.Stored_Goods.Image = ((System.Drawing.Image)(resources.GetObject("Stored_Goods.Image")));
-            this.Stored_Goods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Stored_Goods.Location = new System.Drawing.Point(2, 219);
-            this.Stored_Goods.Name = "Stored_Goods";
-            this.Stored_Goods.Size = new System.Drawing.Size(207, 49);
-            this.Stored_Goods.TabIndex = 2;
-            this.Stored_Goods.Text = "       Stored Goods";
-            this.Stored_Goods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Stored_Goods.UseVisualStyleBackColor = true;
-            // 
-            // Storages
-            // 
-            this.Storages.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Storages.FlatAppearance.BorderSize = 0;
-            this.Storages.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Storages.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Storages.ForeColor = System.Drawing.Color.White;
-            this.Storages.Image = ((System.Drawing.Image)(resources.GetObject("Storages.Image")));
-            this.Storages.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Storages.Location = new System.Drawing.Point(2, 109);
-            this.Storages.Name = "Storages";
-            this.Storages.Size = new System.Drawing.Size(207, 49);
-            this.Storages.TabIndex = 2;
-            this.Storages.Text = "       Storages";
-            this.Storages.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Storages.UseVisualStyleBackColor = true;
-            this.Storages.Click += new System.EventHandler(this.Storages_Click);
-            // 
-            // Receive_Goods
-            // 
-            this.Receive_Goods.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Receive_Goods.FlatAppearance.BorderSize = 0;
-            this.Receive_Goods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Receive_Goods.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Receive_Goods.ForeColor = System.Drawing.Color.White;
-            this.Receive_Goods.Image = ((System.Drawing.Image)(resources.GetObject("Receive_Goods.Image")));
-            this.Receive_Goods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Receive_Goods.Location = new System.Drawing.Point(2, 164);
-            this.Receive_Goods.Name = "Receive_Goods";
-            this.Receive_Goods.Size = new System.Drawing.Size(207, 49);
-            this.Receive_Goods.TabIndex = 2;
-            this.Receive_Goods.Text = "       Receive Goods";
-            this.Receive_Goods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Receive_Goods.UseVisualStyleBackColor = true;
-            this.Receive_Goods.Click += new System.EventHandler(this.Receive_Goods_Click);
-            // 
-            // Dashboard
-            // 
-            this.Dashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Dashboard.FlatAppearance.BorderSize = 0;
-            this.Dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Dashboard.Font = new System.Drawing.Font("Franklin Gothic Medium", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dashboard.ForeColor = System.Drawing.Color.White;
-            this.Dashboard.Image = ((System.Drawing.Image)(resources.GetObject("Dashboard.Image")));
-            this.Dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Dashboard.Location = new System.Drawing.Point(2, 54);
-            this.Dashboard.Name = "Dashboard";
-            this.Dashboard.Size = new System.Drawing.Size(207, 49);
-            this.Dashboard.TabIndex = 2;
-            this.Dashboard.Text = "       Dashboard";
-            this.Dashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Dashboard.UseVisualStyleBackColor = true;
-            this.Dashboard.Click += new System.EventHandler(this.Dashboard_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-3, -3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(207, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // dashboard_dataGridView1
-            // 
-            this.dashboard_dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
-            this.dashboard_dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dashboard_dataGridView1.Location = new System.Drawing.Point(25, 53);
-            this.dashboard_dataGridView1.Name = "dashboard_dataGridView1";
-            this.dashboard_dataGridView1.RowHeadersWidth = 51;
-            this.dashboard_dataGridView1.RowTemplate.Height = 24;
-            this.dashboard_dataGridView1.Size = new System.Drawing.Size(1112, 150);
-            this.dashboard_dataGridView1.TabIndex = 15;
+            this.guna2Button2.Animated = true;
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Button2.BackgroundImage")));
+            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.guna2Button2.BorderRadius = 10;
+            this.guna2Button2.BorderThickness = 2;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.White;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button2.Location = new System.Drawing.Point(195, 164);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(236, 45);
+            this.guna2Button2.TabIndex = 12;
+            this.guna2Button2.Text = "Transfer Goods";
             // 
             // Dashboardp
             // 
@@ -1290,6 +1311,8 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1437, 1055);
+            this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2Panel12);
             this.Controls.Add(this.guna2Panel17);
             this.Controls.Add(this.guna2Panel2);
@@ -1299,9 +1322,7 @@
             this.Controls.Add(this.guna2Panel9);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel16);
-            this.Controls.Add(this.resivegood);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.panel2);
@@ -1312,21 +1333,29 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Dashboardp_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.guna2CircleProgressBar1.ResumeLayout(false);
             this.guna2CircleProgressBar1.PerformLayout();
             this.guna2Panel14.ResumeLayout(false);
             this.guna2Panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.guna2Panel13.ResumeLayout(false);
             this.guna2Panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.guna2Panel16.ResumeLayout(false);
             this.guna2Panel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.guna2Panel17.ResumeLayout(false);
             this.guna2Panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
@@ -1338,16 +1367,8 @@
             this.guna2Panel11.PerformLayout();
             this.guna2Panel12.ResumeLayout(false);
             this.guna2Panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dashboard_dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1372,7 +1393,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -1388,12 +1408,10 @@
         private Guna.UI2.WinForms.Guna2Chip guna2Chip2;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Button resivegood;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label27;
@@ -1444,6 +1462,9 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.DataGridView dashboard_dataGridView1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }
 
