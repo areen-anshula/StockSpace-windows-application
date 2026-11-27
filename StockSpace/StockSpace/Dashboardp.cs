@@ -18,12 +18,16 @@ namespace StockSpace
         public Dashboardp()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+            this.Stored_Goods.Click += Stored_Goods_Click;
+            //DashboardNavigation.WireSectionPages(this, Transfer_Goods, Release_Goods, History, Reports, Settings);
         }
 
         private void Dashboardp_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
             //UpdateSpaceUtilization(1722, 2300);
-          
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -194,7 +198,7 @@ namespace StockSpace
         {
             receivegood f2 = new receivegood();
             f2.Show();
-            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+            f2.WindowState = FormWindowState.Maximized;
             this.Hide();
         }
 
@@ -245,9 +249,12 @@ namespace StockSpace
 
         private void Dashboard_Click(object sender, EventArgs e)
         {
-            Dashboardp d1 = new Dashboardp();
-            d1.Show();
-            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+        }
+
+        private void Stored_Goods_Click(object sender, EventArgs e)
+        {
+            StoredGoods storedGoods = new StoredGoods();
+            storedGoods.Show();
             this.Hide();
         }
 
@@ -255,7 +262,7 @@ namespace StockSpace
         {
             storages s1 = new storages ();
             s1.Show();
-            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+            s1.WindowState = FormWindowState.Maximized;
             this.Hide();
         }
 
@@ -263,7 +270,7 @@ namespace StockSpace
         {
             receivegood r1 = new receivegood();
             r1.Show();
-            // Form1 එක සඟවන්න (hide) ඕන නම් පහත line එක uncomment කරන්න:
+            r1.WindowState = FormWindowState.Maximized;
             this.Hide();
         }
     }
