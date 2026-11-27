@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockSpace
 {
-    public partial class storages : Form
+    public partial class storages : System.Windows.Forms.Form
     {
         public storages()
         {
