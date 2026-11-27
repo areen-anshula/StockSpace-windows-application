@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboardp));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.Settings = new System.Windows.Forms.Button();
@@ -112,6 +112,7 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.dashboard_dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label36 = new System.Windows.Forms.Label();
@@ -119,7 +120,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel3.SuspendLayout();
@@ -398,10 +398,10 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Noto Sans JP", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(272, 60);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(168, 40);
+            this.label13.Size = new System.Drawing.Size(162, 32);
             this.label13.TabIndex = 3;
             this.label13.Text = "Dashboard";
             // 
@@ -449,11 +449,11 @@
             // plable
             // 
             this.plable.AutoSize = true;
-            this.plable.Font = new System.Drawing.Font("Noto Sans JP", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plable.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plable.ForeColor = System.Drawing.Color.Black;
             this.plable.Location = new System.Drawing.Point(38, 55);
             this.plable.Name = "plable";
-            this.plable.Size = new System.Drawing.Size(112, 44);
+            this.plable.Size = new System.Drawing.Size(106, 36);
             this.plable.TabIndex = 7;
             this.plable.Text = "74.9%";
             // 
@@ -461,10 +461,10 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label15.Location = new System.Drawing.Point(16, 20);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(143, 17);
+            this.label15.Size = new System.Drawing.Size(135, 18);
             this.label15.TabIndex = 8;
             this.label15.Text = "Space Utilization";
             // 
@@ -1025,13 +1025,13 @@
             // 
             // chart1
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Location = new System.Drawing.Point(9, 50);
             this.chart1.Name = "chart1";
-            series4.ChartArea = "ChartArea1";
-            series4.Name = "Series1";
-            this.chart1.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(628, 266);
             this.chart1.TabIndex = 7;
             this.chart1.Text = "chart1";
@@ -1071,10 +1071,10 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label40.Location = new System.Drawing.Point(246, 215);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(143, 17);
+            this.label40.Size = new System.Drawing.Size(135, 18);
             this.label40.TabIndex = 8;
             this.label40.Text = "Space Utilization";
             // 
@@ -1082,10 +1082,10 @@
             // 
             this.label42.AutoSize = true;
             this.label42.BackColor = System.Drawing.Color.Transparent;
-            this.label42.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label42.Location = new System.Drawing.Point(17, 20);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(251, 17);
+            this.label42.Size = new System.Drawing.Size(246, 18);
             this.label42.TabIndex = 8;
             this.label42.Text = "Goods Movement . Last 7 Days";
             // 
@@ -1114,10 +1114,10 @@
             // 
             this.label43.AutoSize = true;
             this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.label43.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label43.Location = new System.Drawing.Point(17, 20);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(154, 17);
+            this.label43.Size = new System.Drawing.Size(147, 18);
             this.label43.TabIndex = 8;
             this.label43.Text = "Storage Fill Levels";
             // 
@@ -1166,10 +1166,10 @@
             // 
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label29.Location = new System.Drawing.Point(23, 21);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(55, 17);
+            this.label29.Size = new System.Drawing.Size(51, 18);
             this.label29.TabIndex = 8;
             this.label29.Text = "Alerts";
             // 
@@ -1189,6 +1189,27 @@
             this.guna2Panel11.Size = new System.Drawing.Size(610, 230);
             this.guna2Panel11.TabIndex = 8;
             this.guna2Panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel11_Paint);
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.Animated = true;
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Button2.BackgroundImage")));
+            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.guna2Button2.BorderRadius = 10;
+            this.guna2Button2.BorderThickness = 2;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.White;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button2.Location = new System.Drawing.Point(195, 164);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(236, 45);
+            this.guna2Button2.TabIndex = 12;
+            this.guna2Button2.Text = "Transfer Goods";
             // 
             // guna2Panel12
             // 
@@ -1233,10 +1254,10 @@
             // 
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label30.Location = new System.Drawing.Point(12, 21);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(127, 17);
+            this.label30.Size = new System.Drawing.Size(119, 18);
             this.label30.TabIndex = 8;
             this.label30.Text = "Recent Activity";
             // 
@@ -1275,34 +1296,13 @@
             this.guna2DateTimePicker1.Checked = true;
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(1039, 60);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(970, 60);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(200, 36);
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(269, 36);
             this.guna2DateTimePicker1.TabIndex = 10;
             this.guna2DateTimePicker1.Value = new System.DateTime(2026, 11, 21, 18, 40, 19, 948);
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Button2.BackgroundImage")));
-            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.guna2Button2.BorderRadius = 10;
-            this.guna2Button2.BorderThickness = 2;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Location = new System.Drawing.Point(195, 164);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(236, 45);
-            this.guna2Button2.TabIndex = 12;
-            this.guna2Button2.Text = "Transfer Goods";
             // 
             // Dashboardp
             // 

@@ -414,10 +414,10 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Noto Sans JP", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(265, 53);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(138, 40);
+            this.label13.Size = new System.Drawing.Size(136, 32);
             this.label13.TabIndex = 7;
             this.label13.Text = "Storages";
             // 
@@ -840,10 +840,10 @@
             // 
             this.StoragesA.AutoSize = true;
             this.StoragesA.BackColor = System.Drawing.Color.Transparent;
-            this.StoragesA.Font = new System.Drawing.Font("Noto Sans JP", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StoragesA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StoragesA.Location = new System.Drawing.Point(69, 10);
             this.StoragesA.Name = "StoragesA";
-            this.StoragesA.Size = new System.Drawing.Size(101, 25);
+            this.StoragesA.Size = new System.Drawing.Size(102, 20);
             this.StoragesA.TabIndex = 12;
             this.StoragesA.Text = "Storages A";
             // 
@@ -851,10 +851,10 @@
             // 
             this.label43.AutoSize = true;
             this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.label43.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label43.Location = new System.Drawing.Point(215, 244);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(192, 24);
+            this.label43.Size = new System.Drawing.Size(184, 25);
             this.label43.TabIndex = 8;
             this.label43.Text = "Storage Overview";
             // 
@@ -903,7 +903,7 @@
             this.Bpresentage.FillColor = System.Drawing.Color.White;
             this.Bpresentage.Location = new System.Drawing.Point(238, 629);
             this.Bpresentage.Name = "Bpresentage";
-            this.Bpresentage.Size = new System.Drawing.Size(1303, 381);
+            this.Bpresentage.Size = new System.Drawing.Size(1312, 381);
             this.Bpresentage.TabIndex = 14;
             this.Bpresentage.Paint += new System.Windows.Forms.PaintEventHandler(this.Bpresentage_Paint);
             // 
@@ -912,7 +912,7 @@
             this.binC.BackColor = System.Drawing.Color.White;
             this.binC.ForeColor = System.Drawing.Color.White;
             this.binC.Image = ((System.Drawing.Image)(resources.GetObject("binC.Image")));
-            this.binC.Location = new System.Drawing.Point(1242, 296);
+            this.binC.Location = new System.Drawing.Point(1258, 297);
             this.binC.Name = "binC";
             this.binC.Size = new System.Drawing.Size(33, 34);
             this.binC.TabIndex = 15;
@@ -923,7 +923,7 @@
             this.binB.BackColor = System.Drawing.Color.White;
             this.binB.ForeColor = System.Drawing.Color.White;
             this.binB.Image = ((System.Drawing.Image)(resources.GetObject("binB.Image")));
-            this.binB.Location = new System.Drawing.Point(1242, 190);
+            this.binB.Location = new System.Drawing.Point(1258, 191);
             this.binB.Name = "binB";
             this.binB.Size = new System.Drawing.Size(33, 34);
             this.binB.TabIndex = 15;
@@ -934,7 +934,7 @@
             this.binA.BackColor = System.Drawing.Color.White;
             this.binA.ForeColor = System.Drawing.Color.White;
             this.binA.Image = ((System.Drawing.Image)(resources.GetObject("binA.Image")));
-            this.binA.Location = new System.Drawing.Point(1242, 95);
+            this.binA.Location = new System.Drawing.Point(1258, 96);
             this.binA.Name = "binA";
             this.binA.Size = new System.Drawing.Size(33, 34);
             this.binA.TabIndex = 15;
@@ -947,7 +947,7 @@
             this.editC.Image = ((System.Drawing.Image)(resources.GetObject("editC.Image")));
             this.editC.Location = new System.Drawing.Point(1206, 296);
             this.editC.Name = "editC";
-            this.editC.Size = new System.Drawing.Size(30, 34);
+            this.editC.Size = new System.Drawing.Size(46, 34);
             this.editC.TabIndex = 15;
             this.editC.UseVisualStyleBackColor = false;
             // 
@@ -958,7 +958,7 @@
             this.editB.Image = ((System.Drawing.Image)(resources.GetObject("editB.Image")));
             this.editB.Location = new System.Drawing.Point(1206, 190);
             this.editB.Name = "editB";
-            this.editB.Size = new System.Drawing.Size(30, 34);
+            this.editB.Size = new System.Drawing.Size(46, 34);
             this.editB.TabIndex = 15;
             this.editB.UseVisualStyleBackColor = false;
             // 
@@ -969,7 +969,7 @@
             this.editA.Image = ((System.Drawing.Image)(resources.GetObject("editA.Image")));
             this.editA.Location = new System.Drawing.Point(1206, 95);
             this.editA.Name = "editA";
-            this.editA.Size = new System.Drawing.Size(30, 34);
+            this.editA.Size = new System.Drawing.Size(46, 34);
             this.editA.TabIndex = 15;
             this.editA.UseVisualStyleBackColor = false;
             // 
@@ -978,9 +978,9 @@
             this.viewC.BackColor = System.Drawing.Color.White;
             this.viewC.ForeColor = System.Drawing.Color.White;
             this.viewC.Image = ((System.Drawing.Image)(resources.GetObject("viewC.Image")));
-            this.viewC.Location = new System.Drawing.Point(1170, 296);
+            this.viewC.Location = new System.Drawing.Point(1162, 296);
             this.viewC.Name = "viewC";
-            this.viewC.Size = new System.Drawing.Size(30, 34);
+            this.viewC.Size = new System.Drawing.Size(38, 34);
             this.viewC.TabIndex = 15;
             this.viewC.UseVisualStyleBackColor = false;
             // 
@@ -989,9 +989,9 @@
             this.viewB.BackColor = System.Drawing.Color.White;
             this.viewB.ForeColor = System.Drawing.Color.White;
             this.viewB.Image = ((System.Drawing.Image)(resources.GetObject("viewB.Image")));
-            this.viewB.Location = new System.Drawing.Point(1170, 190);
+            this.viewB.Location = new System.Drawing.Point(1162, 190);
             this.viewB.Name = "viewB";
-            this.viewB.Size = new System.Drawing.Size(30, 34);
+            this.viewB.Size = new System.Drawing.Size(38, 34);
             this.viewB.TabIndex = 15;
             this.viewB.UseVisualStyleBackColor = false;
             // 
@@ -1000,9 +1000,9 @@
             this.viewA.BackColor = System.Drawing.Color.White;
             this.viewA.ForeColor = System.Drawing.Color.White;
             this.viewA.Image = ((System.Drawing.Image)(resources.GetObject("viewA.Image")));
-            this.viewA.Location = new System.Drawing.Point(1170, 95);
+            this.viewA.Location = new System.Drawing.Point(1162, 95);
             this.viewA.Name = "viewA";
-            this.viewA.Size = new System.Drawing.Size(30, 34);
+            this.viewA.Size = new System.Drawing.Size(38, 34);
             this.viewA.TabIndex = 15;
             this.viewA.UseVisualStyleBackColor = false;
             // 
@@ -1263,7 +1263,7 @@
             this.panel7.Controls.Add(this.label27);
             this.panel7.Location = new System.Drawing.Point(3, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1297, 53);
+            this.panel7.Size = new System.Drawing.Size(1306, 53);
             this.panel7.TabIndex = 10;
             // 
             // label5
@@ -1411,10 +1411,10 @@
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label26.Location = new System.Drawing.Point(238, 599);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(117, 20);
+            this.label26.Size = new System.Drawing.Size(112, 20);
             this.label26.TabIndex = 8;
             this.label26.Text = "All Storages";
             // 
@@ -1594,10 +1594,10 @@
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Noto Sans JP", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(69, 10);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(102, 25);
+            this.label21.Size = new System.Drawing.Size(103, 20);
             this.label21.TabIndex = 12;
             this.label21.Text = "Storages B";
             // 
@@ -1749,10 +1749,10 @@
             // 
             this.storageC.AutoSize = true;
             this.storageC.BackColor = System.Drawing.Color.Transparent;
-            this.storageC.Font = new System.Drawing.Font("Noto Sans JP", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.storageC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.storageC.Location = new System.Drawing.Point(69, 10);
             this.storageC.Name = "storageC";
-            this.storageC.Size = new System.Drawing.Size(101, 25);
+            this.storageC.Size = new System.Drawing.Size(103, 20);
             this.storageC.TabIndex = 12;
             this.storageC.Text = "Storages C";
             // 
@@ -1806,11 +1806,11 @@
             this.guna2DateTimePicker1.Checked = true;
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(1144, 62);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(1081, 62);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(200, 36);
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(263, 36);
             this.guna2DateTimePicker1.TabIndex = 19;
             this.guna2DateTimePicker1.Value = new System.DateTime(2026, 11, 21, 18, 38, 29, 123);
             // 
