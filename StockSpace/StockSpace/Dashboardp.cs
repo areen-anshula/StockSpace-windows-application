@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StockSpace
 {
-    public partial class Dashboardp : Form
+    public partial class Dashboardp : System.Windows.Forms.Form
     {
         private int usedSpace;
         private int totalCapacity;

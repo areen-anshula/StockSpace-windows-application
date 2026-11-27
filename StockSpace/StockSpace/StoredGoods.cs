@@ -22,7 +22,7 @@ namespace StockSpace
 
             InitializeComponent();
             WindowState = FormWindowState.Maximized;
-            //DashboardNavigation.WireSectionPages(this, Transfer_Goods, Release_Goods, History, Reports, Settings);
+            DashboardNavigation.WireSectionPages(this, Transfer_Goods, Release_Goods, History, Reports, Settings);
             PopulateGrid(goods);
             UpdateSummary();
         }

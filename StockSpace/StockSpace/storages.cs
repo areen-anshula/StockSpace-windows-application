@@ -16,7 +16,7 @@ namespace StockSpace
         {
             InitializeComponent();
             Stored_Goods.Click += Stored_Goods_Click;
-            //DashboardNavigation.WireSectionPages(this, Transfer_Goods, Release_Goods, History, Reports, Settings);
+            DashboardNavigation.WireSectionPages(this, Transfer_Goods, Release_Goods, History, Reports, Settings);
         }
 
         private void Dashboard_Click(object sender, EventArgs e)

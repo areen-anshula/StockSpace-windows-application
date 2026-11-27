@@ -115,14 +115,7 @@ namespace StockSpace
                 Dock = DockStyle.Fill,
                 Padding = new Padding(30, 24, 30, 24)
             };
-            pageContent.Controls.Add(new Label
-            {
-                AutoSize = true,
-                Font = new Font("Segoe UI", 23F, FontStyle.Bold),
-                ForeColor = Color.FromArgb(31, 41, 55),
-                Location = new Point(0, 0),
-                Text = pageTitle
-            });
+            pageContent.Controls.Add(CreatePageContent(pageTitle));
 
             contentLayout.Controls.Add(topBar, 0, 0);
             contentLayout.Controls.Add(pageContent, 0, 1);
@@ -131,6 +124,195 @@ namespace StockSpace
             root.Controls.Add(sidebar, 0, 0);
             root.Controls.Add(content, 1, 0);
             Controls.Add(root);
+        }
+
+        private static Control CreatePageContent(string pageTitle)
+        {
+            var layout = new TableLayoutPanel
+            {
+                ColumnCount = 1,
+                Dock = DockStyle.Fill,
+                Margin = Padding.Empty,
+                RowCount = 3
+            };
+            layout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 78F));
+            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 112F));
+            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+
+            var header = new Panel { Dock = DockStyle.Fill };
+            header.Controls.Add(new Label
+            {
+                AutoSize = true,
+                Font = new Font("Segoe UI", 23F, FontStyle.Bold),
+                ForeColor = Color.FromArgb(31, 41, 55),
+                Location = new Point(0, 0),
+                Text = pageTitle
+            });
+            header.Controls.Add(new Label
+            {
+                AutoSize = true,
+                Font = new Font("Segoe UI", 9.5F),
+                ForeColor = Color.FromArgb(107, 114, 128),
+                Location = new Point(2, 45),
+                Text = GetPageDescription(pageTitle)
+            });
+
+            layout.Controls.Add(header, 0, 0);
+            layout.Controls.Add(CreateMetricCards(pageTitle), 0, 1);
+            layout.Controls.Add(CreatePageOverview(pageTitle), 0, 2);
+            return layout;
+        }
+
+        private static string GetPageDescription(string pageTitle)
+        {
+            switch (pageTitle)
+            {
+                case "Transfer Goods":
+                    return "Review stock movement between storage locations.";
+                case "Release Goods":
+                    return "Review goods released from your inventory.";
+                case "History":
+                    return "A timeline of inventory activity.";
+                case "Reports":
+                    return "Inventory summaries and reporting.";
+                default:
+                    return "Manage your StockSpace workspace.";
+            }
+        }
+
+        private static Control CreateMetricCards(string pageTitle)
+        {
+            string[] headings;
+            string[] values;
+            switch (pageTitle)
+            {
+                case "Transfer Goods":
+                    headings = new[] { "TRANSFERS", "IN PROGRESS", "LOCATIONS" };
+                    values = new[] { "—", "—", "—" };
+                    break;
+                case "Release Goods":
+                    headings = new[] { "RELEASES", "PENDING", "UNITS RELEASED" };
+                    values = new[] { "—", "—", "—" };
+                    break;
+                case "History":
+                    headings = new[] { "RECORDED EVENTS", "DATE RANGE", "ACTIVITY SOURCE" };
+                    values = new[] { "—", "All activity", "Inventory" };
+                    break;
+                case "Reports":
+                    headings = new[] { "AVAILABLE REPORTS", "LAST GENERATED", "DATA SOURCE" };
+                    values = new[] { "—", "—", "Inventory" };
+                    break;
+                default:
+                    headings = new[] { "WORKSPACE", "PREFERENCES", "DATA CONNECTION" };
+                    values = new[] { "StockSpace", "Default", "Not connected" };
+                    break;
+            }
+
+            var cards = new TableLayoutPanel
+            {
+                ColumnCount = headings.Length,
+                Dock = DockStyle.Fill,
+                Margin = new Padding(0, 0, 0, 12),
+                RowCount = 1
+            };
+            for (var i = 0; i < headings.Length; i++)
+            {
+                cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F / headings.Length));
+                cards.Controls.Add(CreateMetricCard(headings[i], values[i]), i, 0);
+            }
+            cards.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            return cards;
+        }
+
+        private static Control CreateMetricCard(string heading, string value)
+        {
+            var card = new Panel
+            {
+                BackColor = Color.White,
+                Dock = DockStyle.Fill,
+                Margin = new Padding(0, 0, 12, 0),
+                Padding = new Padding(16, 12, 12, 10)
+            };
+            card.Controls.Add(new Label
+            {
+                AutoSize = true,
+                Font = new Font("Segoe UI", 8F, FontStyle.Bold),
+                ForeColor = Color.FromArgb(107, 114, 128),
+                Location = new Point(16, 12),
+                Text = heading
+            });
+            card.Controls.Add(new Label
+            {
+                AutoSize = true,
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.FromArgb(31, 41, 55),
+                Location = new Point(16, 38),
+                Text = value
+            });
+            return card;
+        }
+
+        private static Control CreatePageOverview(string pageTitle)
+        {
+            var panel = new Panel
+            {
+                BackColor = Color.White,
+                Dock = DockStyle.Fill,
+                Padding = new Padding(22)
+            };
+            panel.Controls.Add(new Label
+            {
+                AutoSize = true,
+                Font = new Font("Segoe UI", 13F, FontStyle.Bold),
+                ForeColor = Color.FromArgb(31, 41, 55),
+                Location = new Point(22, 20),
+                Text = GetOverviewTitle(pageTitle)
+            });
+            panel.Controls.Add(new Label
+            {
+                AutoSize = true,
+                Font = new Font("Segoe UI", 9.5F),
+                ForeColor = Color.FromArgb(107, 114, 128),
+                Location = new Point(24, 54),
+                MaximumSize = new Size(800, 0),
+                Text = GetOverviewDescription(pageTitle)
+            });
+            return panel;
+        }
+
+        private static string GetOverviewTitle(string pageTitle)
+        {
+            switch (pageTitle)
+            {
+                case "Transfer Goods":
+                    return "Transfer overview";
+                case "Release Goods":
+                    return "Release overview";
+                case "History":
+                    return "Recent activity";
+                case "Reports":
+                    return "Report center";
+                default:
+                    return "Workspace preferences";
+            }
+        }
+
+        private static string GetOverviewDescription(string pageTitle)
+        {
+            switch (pageTitle)
+            {
+                case "Transfer Goods":
+                    return "Transfer activity will appear here when inventory movement is connected.";
+                case "Release Goods":
+                    return "Release activity will appear here when inventory transactions are connected.";
+                case "History":
+                    return "There is no activity to display yet. Inventory events will be listed here.";
+                case "Reports":
+                    return "Reports will be available here once inventory data is connected.";
+                default:
+                    return "Workspace settings will be available here as configuration options are added.";
+            }
         }
 
         private static Panel CreateSidebar(ComponentResourceManager resources)
