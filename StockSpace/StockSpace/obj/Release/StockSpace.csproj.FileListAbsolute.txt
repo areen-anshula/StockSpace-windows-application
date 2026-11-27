@@ -1,0 +1,12 @@
+Z:\StockSpace-main\StockSpace\StockSpace\bin\Release\StockSpace.exe.config
+Z:\StockSpace-main\StockSpace\StockSpace\bin\Release\StockSpace.exe
+Z:\StockSpace-main\StockSpace\StockSpace\bin\Release\StockSpace.pdb
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.csproj.AssemblyReference.cache
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.Form1.resources
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.Form2.resources
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.Properties.Resources.resources
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.csproj.GenerateResource.cache
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.csproj.CoreCompileInputs.cache
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.exe
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.pdb
+Z:\StockSpace-main\StockSpace\StockSpace\obj\Release\StockSpace.Form3.resources
