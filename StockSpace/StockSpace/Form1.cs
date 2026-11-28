@@ -28,7 +28,7 @@ namespace StockSpace
             {
                 using (var connection = new MySqlConnection(connectionString))
                 using (var command = new MySqlCommand(
-                    "SELECT password_hash FROM users WHERE username = @username LIMIT 1",
+                    "SELECT Password FROM user WHERE Username = @username LIMIT 1",
                     connection))
                 {
                     command.Parameters.Add("@username", MySqlDbType.VarChar, 100)
