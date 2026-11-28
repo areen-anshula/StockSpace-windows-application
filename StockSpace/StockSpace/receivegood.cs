@@ -15,6 +15,16 @@ namespace StockSpace
         public receivegood()
         {
             InitializeComponent();
+
+            guna2ComboBox1.Items.Clear();
+            guna2ComboBox1.Items.Add("ABC Suppliers");
+            guna2ComboBox1.Items.Add("Global Traders");
+            guna2ComboBox1.Items.Add("Metro Wholesale");
+            guna2ComboBox4.Items.Clear();
+            guna2ComboBox4.Items.Add("Storage A");
+            guna2ComboBox4.Items.Add("Storage B");
+            guna2ComboBox4.Items.Add("Storage C");
+
             Stored_Goods.Click += Stored_Goods_Click;
             DashboardNavigation.WireSectionPages(this, Transfer_Goods, Release_Goods, History, Reports, Settings);
         }
@@ -46,7 +56,7 @@ namespace StockSpace
         {
             storages s1 = new storages();
             s1.Show();
-            s1.WindowState = FormWindowState.Maximized; 
+            s1.WindowState = FormWindowState.Maximized;
             this.Hide();
         }
 

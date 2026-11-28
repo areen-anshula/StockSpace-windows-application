@@ -259,5 +259,13 @@ namespace StockSpace
             r1.WindowState = FormWindowState.Maximized;
             this.Hide();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            receivegood r1 = new receivegood();
+            r1.Show();
+            r1.WindowState = FormWindowState.Maximized;
+            this.Hide();
+        }
     }
 }

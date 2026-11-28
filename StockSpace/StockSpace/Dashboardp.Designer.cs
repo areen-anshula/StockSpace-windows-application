@@ -1288,6 +1288,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(180, 43);
             this.guna2Button1.TabIndex = 9;
             this.guna2Button1.Text = "+ Receive Good";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2DateTimePicker1
             // 
