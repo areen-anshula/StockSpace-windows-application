@@ -56,5 +56,19 @@ namespace StockSpace
             storedGoods.Show();
             this.Hide();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            guna2ComboBox1.SelectedItem = null;
+            guna2TextBox1.Clear();
+            guna2TextBox2.Clear();
+            guna2TextBox3.Clear();
+            guna2ComboBox4.SelectedItem = null;
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
